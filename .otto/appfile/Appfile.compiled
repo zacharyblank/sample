@@ -1,0 +1,69 @@
+{
+    "File": {
+        "ID": "ab1440c7-3590-f69f-af50-ee60b4a79ea9",
+        "Path": "/Users/zachary.blank/Projects/php/Appfile",
+        "Source": "",
+        "Application": {
+            "Name": "php",
+            "Type": "php",
+            "Detect": true,
+            "Dependencies": null
+        },
+        "Project": {
+            "Name": "php",
+            "Infrastructure": "php"
+        },
+        "Infrastructure": [
+            {
+                "Name": "php",
+                "Type": "aws",
+                "Flavor": "simple",
+                "Foundations": [
+                    {
+                        "Name": "consul",
+                        "Config": null
+                    }
+                ]
+            }
+        ],
+        "Customization": null,
+        "Imports": null
+    },
+    "Vertices": [
+        {
+            "File": {
+                "ID": "ab1440c7-3590-f69f-af50-ee60b4a79ea9",
+                "Path": "/Users/zachary.blank/Projects/php/Appfile",
+                "Source": "",
+                "Application": {
+                    "Name": "php",
+                    "Type": "php",
+                    "Detect": true,
+                    "Dependencies": null
+                },
+                "Project": {
+                    "Name": "php",
+                    "Infrastructure": "php"
+                },
+                "Infrastructure": [
+                    {
+                        "Name": "php",
+                        "Type": "aws",
+                        "Flavor": "simple",
+                        "Foundations": [
+                            {
+                                "Name": "consul",
+                                "Config": null
+                            }
+                        ]
+                    }
+                ],
+                "Customization": null,
+                "Imports": null
+            },
+            "Dir": "",
+            "NameValue": "php"
+        }
+    ],
+    "Edges": []
+}
